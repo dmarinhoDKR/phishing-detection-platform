@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "email-ms-spoof-001",
+    "source": "observed_in_inbox",
+    "label": "phishing",
+    "expected_band": "phishing",
+    "display_name": "Microsoft",
+    "sender_email": "mr@timelesstriathlon.com",
+    "subject": "Terms Update Effective Thu, March 19, 2026",
+    "body_excerpt": "To help ensure everything continues to run smoothly, we recommend that you review your account information and confirm that your billing details are up to date.",
+    "button_url": "https://www.timelesstriathlon.com/",
+    "attachments_blocked": true,
+    "marked_as_junk": true,
+    "notes": "Caso real reportado pelo usuário. O risco principal está no spoofing da marca e no contexto do email."
+  },
+  {
+    "case_id": "email-coinbase-target-002",
+    "source": "observed_in_inbox",
+    "label": "phishing",
+    "expected_band": "phishing",
+    "display_name": "Coinbase Security",
+    "sender_email": "alerts@account-review-center.net",
+    "subject": "Verify your Coinbase account activity",
+    "body_excerpt": "We noticed unusual activity on your account. Review your profile immediately to avoid limitations.",
+    "button_url": "https://secure-account-review-center.net/coinbase/login",
+    "attachments_blocked": false,
+    "marked_as_junk": true,
+    "notes": "Caso de calibração com mismatch de marca e domínio."
+  },
+  {
+    "case_id": "email-newsletter-legit-003",
+    "source": "manual_review",
+    "label": "legitimo",
+    "expected_band": "legitimo",
+    "display_name": "Google",
+    "sender_email": "no-reply@accounts.google.com",
+    "subject": "New sign-in on Windows",
+    "body_excerpt": "A new sign-in was detected on your Google Account. If this was you, no further action is needed.",
+    "button_url": "https://myaccount.google.com/notifications",
+    "attachments_blocked": false,
+    "marked_as_junk": false,
+    "notes": "Caso legítimo para verificar se o detector não penaliza comunicações reais de provedores conhecidos."
+  }
+]

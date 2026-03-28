@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "url-legit-google-001",
+    "source": "manual_review",
+    "label": "legitimo",
+    "expected_band": "legitimo",
+    "url": "https://google.com",
+    "notes": "Caso legítimo simples."
+  },
+  {
+    "case_id": "url-suspect-stream-002",
+    "source": "observed_in_app",
+    "label": "suspeito",
+    "expected_band": "suspeito",
+    "url": "https://www.xfilmestorrenthd.com.br/",
+    "notes": "Caso real testado pelo usuário que caiu na faixa Suspeito."
+  },
+  {
+    "case_id": "url-phishing-runapp-003",
+    "source": "observed_in_app",
+    "label": "phishing",
+    "expected_band": "phishing",
+    "url": "https://www.detran.com.br-pt-brappfederai436324687@regularizar-agora-359350980864.southamerica-east1.run.app/",
+    "notes": "URL com spoofing de marca e estrutura lexical claramente abusiva."
+  },
+  {
+    "case_id": "url-legit-mangadex-004",
+    "source": "manual_review",
+    "label": "legitimo",
+    "expected_band": "legitimo",
+    "url": "https://mangadex.org/",
+    "notes": "Caso legítimo testado na interface."
+  }
+]
