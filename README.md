@@ -10,13 +10,6 @@ This repository includes:
 - backend API with `FastAPI`
 - mobile client with `Flutter`
 
-## Why this project stands out
-
-- It goes beyond a notebook or a single script: the same detection engine powers desktop, web, API, and mobile experiences.
-- It combines model-based URL analysis with rule-based email context analysis.
-- It includes ablation, benchmarking, calibration cases, automated tests, and local/mobile history.
-- It was validated not only locally but also through a mobile app running on a real Android device.
-
 ## Official baseline
 
 Current official baseline:
