@@ -2,6 +2,38 @@
 
 End-to-end phishing detection project combining machine learning, email spoofing heuristics, API design, and multi-platform interfaces.
 
+```markdown
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RandomForest-228B22?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Email%20Security-8B0000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/WHOIS-4682B4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DNS-0F4C81?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/BeautifulSoup-59666C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Requests-20232A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Joblib-4B8BBE?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+```
+
+
 This repository includes:
 - URL phishing detection with an official `RandomForest` baseline
 - email analysis with spoofing and header inspection
